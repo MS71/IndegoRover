@@ -21,6 +21,7 @@ Parts:
 * Coil Amp
 * low power + standby
 * support for all available sensors
+* BNO055
 * ...
 
 Other:
