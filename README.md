@@ -24,4 +24,4 @@ Parts:
 * ...
 
 Other:
-* made with free Eagle
+* made with free Eagle  (max. 80 qcm)
