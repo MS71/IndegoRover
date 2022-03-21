@@ -1,6 +1,12 @@
 # IndegoRover
 new MainBoard for Indego Lawn Mower
 
+Schematic:
+https://github.com/MS71/IndegoRover/blob/main/hw/indego_adapter_sch.pdf
+
+PCB:
+https://github.com/MS71/IndegoRover/blob/main/hw/indego_adapter_brd.pdf
+
 Parts:
 * ESP32 Module (https://github.com/MS71/ROS2Mower/blob/master/hw/esp32_module.pdf)
 * ARV Mega 128
