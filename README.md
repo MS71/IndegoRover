@@ -8,7 +8,7 @@ PCB:
 https://github.com/MS71/IndegoRover/blob/main/hw/indego_adapter_brd.pdf
 
 Parts:
-* ESP32 Module (https://github.com/MS71/ROS2Mower/blob/master/hw/esp32_module.pdf)
+* ESP32 (S2/S3) Module (https://github.com/MS71/ROS2Mower/blob/master/hw/esp32_module.pdf)
 * ARV Mega 128
 * origonal Indeo connectors (26SHC-B-1A => mouser)
 * 3 * VNH2SP30 module (ebay)
