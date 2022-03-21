@@ -14,3 +14,5 @@ Parts:
 * Bat Charger Circuit
 * Coil Amp
 * low power + standby
+* support for all available sensors
+* ...
