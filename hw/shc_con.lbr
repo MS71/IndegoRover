@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="24SHC-B-1A">
+<hole x="0" y="0" drill="3.2"/>
+<hole x="-29.8" y="0" drill="3.2"/>
+<pad name="P$2" x="-2" y="-6.5" drill="1.2"/>
+<pad name="P$3" x="-2" y="-10.5" drill="1.2"/>
+<pad name="P$4" x="-5" y="-6.5" drill="1.2"/>
+<pad name="P$5" x="-5" y="-9.5" drill="1.2"/>
+<pad name="P$6" x="-7.2" y="-6.5" drill="1.2"/>
+<pad name="P$7" x="-7.2" y="-9.5" drill="1.2"/>
+<pad name="P$8" x="-9.4" y="-6.5" drill="1.2"/>
+<pad name="P$9" x="-9.4" y="-9.5" drill="1.2"/>
+<pad name="P$10" x="-11.6" y="-6.5" drill="1.2"/>
+<pad name="P$11" x="-11.6" y="-9.5" drill="1.2"/>
+<pad name="P$12" x="-13.8" y="-6.5" drill="1.2"/>
+<pad name="P$13" x="-13.8" y="-9.5" drill="1.2"/>
+<pad name="P$14" x="-16" y="-6.5" drill="1.2"/>
+<pad name="P$15" x="-16" y="-9.5" drill="1.2"/>
+<pad name="P$16" x="-18.2" y="-6.5" drill="1.2"/>
+<pad name="P$17" x="-18.2" y="-9.5" drill="1.2"/>
+<pad name="P$18" x="-20.4" y="-6.5" drill="1.2"/>
+<pad name="P$19" x="-20.4" y="-9.5" drill="1.2"/>
+<pad name="P$20" x="-22.6" y="-6.5" drill="1.2"/>
+<pad name="P$21" x="-22.6" y="-9.5" drill="1.2"/>
+<pad name="P$22" x="-24.8" y="-6.5" drill="1.2"/>
+<pad name="P$23" x="-24.8" y="-9.5" drill="1.2"/>
+<pad name="P$24" x="-27.8" y="-6.5" drill="1.2"/>
+<pad name="P$25" x="-27.8" y="-10.5" drill="1.2"/>
+<wire x1="2.54" y1="0" x2="-33.02" y2="0" width="0.127" layer="21"/>
+<wire x1="-33.02" y1="0" x2="-33.02" y2="19.05" width="0.127" layer="21"/>
+<wire x1="-33.02" y1="19.05" x2="2.54" y2="19.05" width="0.127" layer="21"/>
+<wire x1="2.54" y1="19.05" x2="2.54" y2="0" width="0.127" layer="21"/>
+<text x="-31.75" y="2.54" size="1.778" layer="21">24SHC-B-1A</text>
+</package>
+<package name="26SHC-B-1A">
+<hole x="0" y="0" drill="3.2"/>
+<hole x="-36.6" y="0" drill="3.2"/>
+<pad name="P$2" x="-2" y="-6.5" drill="1.2"/>
+<pad name="P$3" x="-2" y="-10.5" drill="1.2"/>
+<pad name="P$4" x="-6" y="-6.5" drill="1.2"/>
+<pad name="P$5" x="-6" y="-10.5" drill="1.2"/>
+<pad name="P$6" x="-9" y="-6.5" drill="1.2"/>
+<pad name="P$7" x="-9" y="-9.5" drill="1.2"/>
+<pad name="P$8" x="-11.2" y="-6.5" drill="1.2"/>
+<pad name="P$9" x="-11.2" y="-9.5" drill="1.2"/>
+<pad name="P$10" x="-13.4" y="-6.5" drill="1.2"/>
+<pad name="P$11" x="-13.4" y="-9.5" drill="1.2"/>
+<pad name="P$12" x="-15.6" y="-6.5" drill="1.2"/>
+<pad name="P$13" x="-15.6" y="-9.5" drill="1.2"/>
+<pad name="P$14" x="-17.8" y="-6.5" drill="1.2"/>
+<pad name="P$15" x="-17.8" y="-9.5" drill="1.2"/>
+<pad name="P$16" x="-20" y="-6.5" drill="1.2"/>
+<pad name="P$17" x="-20" y="-9.5" drill="1.2"/>
+<pad name="P$18" x="-22.2" y="-6.5" drill="1.2"/>
+<pad name="P$19" x="-22.2" y="-9.5" drill="1.2"/>
+<pad name="P$20" x="-24.4" y="-6.5" drill="1.2"/>
+<pad name="P$21" x="-24.4" y="-9.5" drill="1.2"/>
+<pad name="P$22" x="-26.6" y="-6.5" drill="1.2"/>
+<pad name="P$23" x="-26.6" y="-9.5" drill="1.2"/>
+<pad name="P$24" x="-29.6" y="-6.5" drill="1.2"/>
+<pad name="P$25" x="-29.6" y="-10.5" drill="1.2"/>
+<pad name="P$26" x="-33.6" y="-6.5" drill="1.2"/>
+<pad name="P$27" x="-33.6" y="-10.5" drill="1.2"/>
+<wire x1="2.54" y1="0" x2="-39.37" y2="0" width="0.127" layer="21"/>
+<wire x1="-39.37" y1="0" x2="-39.37" y2="19.05" width="0.127" layer="21"/>
+<wire x1="-39.37" y1="19.05" x2="2.54" y2="19.05" width="0.127" layer="21"/>
+<wire x1="2.54" y1="19.05" x2="2.54" y2="0" width="0.127" layer="21"/>
+<text x="-38.1" y="2.54" size="1.778" layer="21">26SHC-B-1A</text>
+</package>
+<package name="VNH2SP30">
+<pad name="5V" x="10.795" y="15.24" drill="1.2" shape="long" rot="R90"/>
+<pad name="GND" x="13.335" y="15.24" drill="1.2" shape="long" rot="R90"/>
+<pad name="EN" x="15.875" y="15.24" drill="1.2" shape="long" rot="R90"/>
+<pad name="CS" x="18.415" y="15.24" drill="1.2" shape="long" rot="R90"/>
+<pad name="INA" x="20.955" y="15.24" drill="1.2" shape="long" rot="R90"/>
+<pad name="INB" x="23.495" y="15.24" drill="1.2" shape="long" rot="R90"/>
+<pad name="PWM" x="26.035" y="15.24" drill="1.2" shape="long" rot="R90"/>
+<pad name="OUTA" x="0" y="0" drill="2" shape="long"/>
+<pad name="OUTB" x="0" y="5.08" drill="2" shape="long"/>
+<pad name="IN+" x="48.26" y="5.08" drill="2" shape="long" rot="R180"/>
+<pad name="IN-" x="48.26" y="0" drill="2" shape="long" rot="R180"/>
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-10.16" x2="53.34" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="53.34" y1="-10.16" x2="53.34" y2="17.78" width="0.127" layer="21"/>
+<wire x1="53.34" y1="17.78" x2="-5.08" y2="17.78" width="0.127" layer="21"/>
+<text x="-2.54" y="15.24" size="1.27" layer="21">VNH2SP30</text>
+<wire x1="7.62" y1="-7.62" x2="30.48" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="30.48" y1="-7.62" x2="30.48" y2="10.16" width="0.127" layer="21"/>
+<wire x1="30.48" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="21"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-7.62" width="0.127" layer="21"/>
+<circle x="38.1" y="7.62" radius="5.6796125" width="0.127" layer="21"/>
+</package>
+<package name="NETCON">
+</package>
+</packages>
+<symbols>
+<symbol name="24SHC-B-1A">
+<pin name="P$1" x="63.5" y="2.54" length="middle" rot="R90"/>
+<pin name="P$2" x="60.96" y="0" length="middle" rot="R90"/>
+<pin name="P$3" x="55.88" y="2.54" length="middle" rot="R90"/>
+<pin name="P$4" x="53.34" y="0" length="middle" rot="R90"/>
+<pin name="P$5" x="50.8" y="2.54" length="middle" rot="R90"/>
+<pin name="P$6" x="48.26" y="0" length="middle" rot="R90"/>
+<pin name="P$7" x="45.72" y="2.54" length="middle" rot="R90"/>
+<pin name="P$8" x="43.18" y="0" length="middle" rot="R90"/>
+<pin name="P$9" x="40.64" y="2.54" length="middle" rot="R90"/>
+<pin name="P$10" x="38.1" y="0" length="middle" rot="R90"/>
+<pin name="P$11" x="35.56" y="2.54" length="middle" rot="R90"/>
+<pin name="P$12" x="33.02" y="0" length="middle" rot="R90"/>
+<pin name="P$13" x="30.48" y="2.54" length="middle" rot="R90"/>
+<pin name="P$14" x="27.94" y="0" length="middle" rot="R90"/>
+<pin name="P$15" x="25.4" y="2.54" length="middle" rot="R90"/>
+<pin name="P$16" x="22.86" y="0" length="middle" rot="R90"/>
+<pin name="P$17" x="20.32" y="2.54" length="middle" rot="R90"/>
+<pin name="P$18" x="17.78" y="0" length="middle" rot="R90"/>
+<pin name="P$19" x="15.24" y="2.54" length="middle" rot="R90"/>
+<pin name="P$20" x="12.7" y="0" length="middle" rot="R90"/>
+<pin name="P$21" x="10.16" y="2.54" length="middle" rot="R90"/>
+<pin name="P$22" x="7.62" y="0" length="middle" rot="R90"/>
+<pin name="P$23" x="2.54" y="2.54" length="middle" rot="R90"/>
+<pin name="P$24" x="0" y="0" length="middle" rot="R90"/>
+<text x="0" y="-5.08" size="1.778" layer="96">24SHC-B-1A</text>
+</symbol>
+<symbol name="26SHC-B-1A">
+<pin name="P$1" x="68.58" y="2.54" length="middle" rot="R90"/>
+<pin name="P$2" x="66.04" y="0" length="middle" rot="R90"/>
+<pin name="P$3" x="63.5" y="2.54" length="middle" rot="R90"/>
+<pin name="P$4" x="60.96" y="0" length="middle" rot="R90"/>
+<pin name="P$5" x="55.88" y="2.54" length="middle" rot="R90"/>
+<pin name="P$6" x="53.34" y="0" length="middle" rot="R90"/>
+<pin name="P$7" x="50.8" y="2.54" length="middle" rot="R90"/>
+<pin name="P$8" x="48.26" y="0" length="middle" rot="R90"/>
+<pin name="P$9" x="45.72" y="2.54" length="middle" rot="R90"/>
+<pin name="P$10" x="43.18" y="0" length="middle" rot="R90"/>
+<pin name="P$11" x="40.64" y="2.54" length="middle" rot="R90"/>
+<pin name="P$12" x="38.1" y="0" length="middle" rot="R90"/>
+<pin name="P$13" x="35.56" y="2.54" length="middle" rot="R90"/>
+<pin name="P$14" x="33.02" y="0" length="middle" rot="R90"/>
+<pin name="P$15" x="30.48" y="2.54" length="middle" rot="R90"/>
+<pin name="P$16" x="27.94" y="0" length="middle" rot="R90"/>
+<pin name="P$17" x="25.4" y="2.54" length="middle" rot="R90"/>
+<pin name="P$18" x="22.86" y="0" length="middle" rot="R90"/>
+<pin name="P$19" x="20.32" y="2.54" length="middle" rot="R90"/>
+<pin name="P$20" x="17.78" y="0" length="middle" rot="R90"/>
+<pin name="P$21" x="15.24" y="2.54" length="middle" rot="R90"/>
+<pin name="P$22" x="12.7" y="0" length="middle" rot="R90"/>
+<pin name="P$23" x="7.62" y="2.54" length="middle" rot="R90"/>
+<pin name="P$24" x="5.08" y="0" length="middle" rot="R90"/>
+<pin name="P$25" x="2.54" y="2.54" length="middle" rot="R90"/>
+<pin name="P$26" x="0" y="0" length="middle" rot="R90"/>
+<text x="0" y="-5.08" size="1.778" layer="96">26SHC-B-1A</text>
+</symbol>
+<symbol name="VNH2SP30_PCB">
+<pin name="PWM" x="0" y="0" length="middle" rot="R90"/>
+<pin name="INB" x="2.54" y="0" length="middle" rot="R90"/>
+<pin name="INA" x="5.08" y="0" length="middle" rot="R90"/>
+<pin name="CS" x="7.62" y="0" length="middle" rot="R90"/>
+<pin name="EN" x="10.16" y="0" length="middle" rot="R90"/>
+<pin name="GND" x="12.7" y="0" length="middle" rot="R90"/>
+<pin name="+5V" x="15.24" y="0" length="middle" rot="R90"/>
+<pin name="IN-" x="-5.08" y="0" length="middle" rot="R90"/>
+<pin name="IN+" x="-7.62" y="0" length="middle" rot="R90"/>
+<pin name="OUTA" x="20.32" y="0" length="middle" rot="R90"/>
+<pin name="OUTB" x="22.86" y="0" length="middle" rot="R90"/>
+<text x="-7.62" y="-5.08" size="1.27" layer="96">VNH2SP30</text>
+</symbol>
+<symbol name="NETCON">
+<pin name="P$1" x="-5.08" y="0" length="middle"/>
+<pin name="P$2" x="5.08" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="24SHC-B-1A">
+<gates>
+<gate name="G$1" symbol="24SHC-B-1A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="24SHC-B-1A">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$2"/>
+<connect gate="G$1" pin="P$10" pad="P$11"/>
+<connect gate="G$1" pin="P$11" pad="P$12"/>
+<connect gate="G$1" pin="P$12" pad="P$13"/>
+<connect gate="G$1" pin="P$13" pad="P$14"/>
+<connect gate="G$1" pin="P$14" pad="P$15"/>
+<connect gate="G$1" pin="P$15" pad="P$16"/>
+<connect gate="G$1" pin="P$16" pad="P$17"/>
+<connect gate="G$1" pin="P$17" pad="P$18"/>
+<connect gate="G$1" pin="P$18" pad="P$19"/>
+<connect gate="G$1" pin="P$19" pad="P$20"/>
+<connect gate="G$1" pin="P$2" pad="P$3"/>
+<connect gate="G$1" pin="P$20" pad="P$21"/>
+<connect gate="G$1" pin="P$21" pad="P$22"/>
+<connect gate="G$1" pin="P$22" pad="P$23"/>
+<connect gate="G$1" pin="P$23" pad="P$24"/>
+<connect gate="G$1" pin="P$24" pad="P$25"/>
+<connect gate="G$1" pin="P$3" pad="P$4"/>
+<connect gate="G$1" pin="P$4" pad="P$5"/>
+<connect gate="G$1" pin="P$5" pad="P$6"/>
+<connect gate="G$1" pin="P$6" pad="P$7"/>
+<connect gate="G$1" pin="P$7" pad="P$8"/>
+<connect gate="G$1" pin="P$8" pad="P$9"/>
+<connect gate="G$1" pin="P$9" pad="P$10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="26SHC-B-1A">
+<gates>
+<gate name="G$1" symbol="26SHC-B-1A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="26SHC-B-1A">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$2"/>
+<connect gate="G$1" pin="P$10" pad="P$11"/>
+<connect gate="G$1" pin="P$11" pad="P$12"/>
+<connect gate="G$1" pin="P$12" pad="P$13"/>
+<connect gate="G$1" pin="P$13" pad="P$14"/>
+<connect gate="G$1" pin="P$14" pad="P$15"/>
+<connect gate="G$1" pin="P$15" pad="P$16"/>
+<connect gate="G$1" pin="P$16" pad="P$17"/>
+<connect gate="G$1" pin="P$17" pad="P$18"/>
+<connect gate="G$1" pin="P$18" pad="P$19"/>
+<connect gate="G$1" pin="P$19" pad="P$20"/>
+<connect gate="G$1" pin="P$2" pad="P$3"/>
+<connect gate="G$1" pin="P$20" pad="P$21"/>
+<connect gate="G$1" pin="P$21" pad="P$22"/>
+<connect gate="G$1" pin="P$22" pad="P$23"/>
+<connect gate="G$1" pin="P$23" pad="P$24"/>
+<connect gate="G$1" pin="P$24" pad="P$25"/>
+<connect gate="G$1" pin="P$25" pad="P$26"/>
+<connect gate="G$1" pin="P$26" pad="P$27"/>
+<connect gate="G$1" pin="P$3" pad="P$4"/>
+<connect gate="G$1" pin="P$4" pad="P$5"/>
+<connect gate="G$1" pin="P$5" pad="P$6"/>
+<connect gate="G$1" pin="P$6" pad="P$7"/>
+<connect gate="G$1" pin="P$7" pad="P$8"/>
+<connect gate="G$1" pin="P$8" pad="P$9"/>
+<connect gate="G$1" pin="P$9" pad="P$10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VNH2SP30">
+<gates>
+<gate name="G$1" symbol="VNH2SP30_PCB" x="2.54" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="VNH2SP30">
+<connects>
+<connect gate="G$1" pin="+5V" pad="5V"/>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IN+" pad="IN+"/>
+<connect gate="G$1" pin="IN-" pad="IN-"/>
+<connect gate="G$1" pin="INA" pad="INA"/>
+<connect gate="G$1" pin="INB" pad="INB"/>
+<connect gate="G$1" pin="OUTA" pad="OUTA"/>
+<connect gate="G$1" pin="OUTB" pad="OUTB"/>
+<connect gate="G$1" pin="PWM" pad="PWM"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
