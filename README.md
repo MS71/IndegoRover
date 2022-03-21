@@ -22,3 +22,6 @@ Parts:
 * low power + standby
 * support for all available sensors
 * ...
+
+Other:
+* made with free Eagle
