@@ -28,6 +28,7 @@ Parts:
 * power supply for onboard computer
 * beeper
 * support for LCD and keyboard (difficult)
+* some breadboard area for custom extensions
 * ...
 
 onboard ROS2 computer: (optional)
