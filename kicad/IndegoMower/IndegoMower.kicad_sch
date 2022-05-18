@@ -139,10 +139,10 @@
       (reference "#PWR0112") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/779e8a7f-993e-44a7-9f1f-511b922b345b/22e72582-032d-4687-8acd-894291904c26"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR0113") (unit 1) (value "VCC") (footprint "")
     )
     (path "/779e8a7f-993e-44a7-9f1f-511b922b345b/4dc827b2-b8b4-421a-98a1-d20b5f77fc48"
-      (reference "#PWR?") (unit 1) (value "GNDD") (footprint "")
+      (reference "#PWR0114") (unit 1) (value "GNDD") (footprint "")
     )
     (path "/e882e35a-4577-4eca-891a-faba430f565e/dd381b8f-a9e7-4291-bb67-bd0effd84813"
       (reference "C1") (unit 1) (value "0.1") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -553,7 +553,7 @@
       (reference "U6") (unit 1) (value "~") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/779e8a7f-993e-44a7-9f1f-511b922b345b/04ccb682-d317-4aba-84cd-c8e1360dfb7f"
-      (reference "U?") (unit 1) (value "ATmega128A-A") (footprint "Package_QFP:TQFP-64_14x14mm_P0.8mm")
+      (reference "U7") (unit 1) (value "ATmega128A-A") (footprint "Package_QFP:TQFP-64_14x14mm_P0.8mm")
     )
   )
 )
