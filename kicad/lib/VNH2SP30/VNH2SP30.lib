@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# VNH2SP30
+#
+DEF VNH2SP30 U 0 40 Y Y 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "VNH2SP30" 0 0 50 H I L BNN
+F2 "VNH2SP30" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+T 0 -300 -200 50 0 0 0 VNH2SP30 Normal 0 L B
+X PWM PWM 0 0 200 U 40 40 0 0 B 
+X INB INB 100 0 200 U 40 40 0 0 B 
+X INA INA 200 0 200 U 40 40 0 0 B 
+X CS CS 300 0 200 U 40 40 0 0 B 
+X EN EN 400 0 200 U 40 40 0 0 B 
+X GND GND 500 0 200 U 40 40 0 0 B 
+X +5V 5V 600 0 200 U 40 40 0 0 B 
+X IN- IN -200 0 200 U 40 40 0 0 B 
+X IN+ IN+ -300 0 200 U 40 40 0 0 B 
+X OUTA OUTA 800 0 200 U 40 40 0 0 B 
+X OUTB OUTB 900 0 200 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

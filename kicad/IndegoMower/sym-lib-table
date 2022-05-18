@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "26SHC-B-1A")(type "Legacy")(uri "/home/maik/workspace/ros/IndegoRover/kicad/lib/26SHC-B-1A/26SHC-B-1A.lib")(options "")(descr ""))
+  (lib (name "24SHC-B-1A")(type "Legacy")(uri "/home/maik/workspace/ros/IndegoRover/kicad/lib/24SHC-B-1A/24SHC-B-1A.lib")(options "")(descr ""))
+  (lib (name "RPi_Hat")(type "Legacy")(uri "/home/maik/workspace/om/OpenMower/Hardware/OpenMowerMainboard/RPi_Hat.lib")(options "")(descr ""))
+)
