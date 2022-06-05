@@ -5,7 +5,7 @@ Schematic:
 https://github.com/MS71/IndegoRover/blob/main/kicad/IndegoMower/pdf/IndegoMower.pdf
 
 PCB:
-https://github.com/MS71/IndegoRover/blob/main/hw/indego_adapter_brd.pdf
+![alt text](https://github.com/MS71/IndegoRover/blob/main/kicad/IndegoMower/IndegoMower3D.png)
 
 Parts:
 * ESP32 (S2/S3) Module (https://github.com/MS71/ROS2Mower/blob/master/hw/esp32_module.pdf)
