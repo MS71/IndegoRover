@@ -1,0 +1,6 @@
+*.zip
+*.bak
+#*
+*~
+#auto_saved_files#
+kicad/IndegoMower/#auto_saved_files#

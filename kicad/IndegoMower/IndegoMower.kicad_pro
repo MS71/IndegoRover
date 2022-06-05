@@ -467,6 +467,22 @@
     [
       "14a0580f-24c6-42bd-8508-13400cd5b689",
       "RPI"
+    ],
+    [
+      "4e2ff1d0-aea2-4ed8-b9dc-52f148d68caa",
+      "GPS"
+    ],
+    [
+      "71f8f2d4-81f9-4c79-a3e6-d09c0ab96ac8",
+      "IMU"
+    ],
+    [
+      "2a02d283-b37e-48cd-b3fb-333b192c2e1a",
+      "ESP32"
+    ],
+    [
+      "063a4b89-ff5c-4ebc-8c26-eb3638df6196",
+      "Extension Bus"
     ]
   ],
   "text_variables": {}
