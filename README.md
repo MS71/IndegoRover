@@ -2,7 +2,7 @@
 new MainBoard for Indego Lawn Mower
 
 Schematic:
-https://github.com/MS71/IndegoRover/blob/main/hw/indego_adapter_sch.pdf
+https://github.com/MS71/IndegoRover/blob/main/kicad/IndegoMower/pdf/IndegoMower.pdf
 
 PCB:
 https://github.com/MS71/IndegoRover/blob/main/hw/indego_adapter_brd.pdf
