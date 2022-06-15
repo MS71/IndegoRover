@@ -8419,7 +8419,7 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="60.96" y="109.22"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="LNA_EN" class="0">
 <segment>
 <pinref part="LNA_EN" gate="1" pin="P"/>
 <wire x1="144.78" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
@@ -8428,7 +8428,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="86.36" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="GPIO26" class="0">
 <segment>
 <pinref part="GPIO26" gate="1" pin="P"/>
 <wire x1="144.78" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
@@ -8437,28 +8437,28 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="83.82" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="TIMEPULSE" class="0">
 <segment>
 <pinref part="TIMEPULSE" gate="1" pin="P"/>
 <pinref part="U$1" gate="G$1" pin="TIMEPULSE"/>
 <wire x1="144.78" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="RX" class="0">
 <segment>
 <pinref part="RX" gate="1" pin="P"/>
 <pinref part="U$1" gate="G$1" pin="RX"/>
 <wire x1="144.78" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="TX" class="0">
 <segment>
 <pinref part="TX" gate="1" pin="P"/>
 <pinref part="U$1" gate="G$1" pin="TX"/>
 <wire x1="144.78" y1="86.36" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="RF_IN" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="RF_IN"/>
 <wire x1="68.58" y1="116.84" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
@@ -8476,7 +8476,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="L" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <pinref part="R" gate="G$1" pin="1"/>
@@ -8492,14 +8492,14 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="EN" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="EN"/>
 <pinref part="EN" gate="1" pin="P"/>
 <wire x1="129.54" y1="121.92" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="V_BKUP" class="0">
 <segment>
 <pinref part="V_BCKP" gate="1" pin="P"/>
 <pinref part="U$1" gate="G$1" pin="V_BCKP"/>
