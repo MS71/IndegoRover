@@ -1,0 +1,7 @@
+dependencies:
+  pid_ctrl: ^0.1.1
+  bdc_motor: ^0.1.0
+  espressif/esp32-camera: '*'
+  microros:
+    git: https://github.com/micro-ROS/micro_ros_espidf_component.git
+    version: humble

@@ -1,0 +1,505 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9538e4ed-27e6-4c37-b989-9859dc0d49e8")
+	(paper "A4")
+	(lib_symbols)
+	(text "* simpleRTK2B Lite\n* RTK-1010\n* GPS Antenna\n* LNA"
+		(exclude_from_sim no)
+		(at 170.18 67.31 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "04a7d58e-6b25-4e26-a091-8c5a1d786f6b")
+	)
+	(text "* AVR Mega128"
+		(exclude_from_sim no)
+		(at 218.44 29.21 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "09a0338b-d360-4d86-a286-a9bd1596cd4a")
+	)
+	(text "* LM2596HVS DC/DC"
+		(exclude_from_sim no)
+		(at 92.71 58.42 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "1997d764-eaae-4735-8caf-7465f42db24f")
+	)
+	(text "* VNH 3SP30 H Bridge"
+		(exclude_from_sim no)
+		(at 92.71 29.21 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "61c8c7e3-0dd2-4df0-9214-696151f92eda")
+	)
+	(text "Architecture:\n* should work with Indego 1000, 1200 and 1300\n* fit to origional ALM mainboard dimensions\n* support for all Indego Sensors\n* AVR MeGa 128 used for low power/standby uC\n* ESP32 S3 for connected processor (microROS)\n* RPI4 or compatibe linux/SBC (optional)\n* RTK GPS (Ublox F9P or RTK-1010)\n* onboard GPS L1/L2 antenna (LNA?)\n* use low cost modules/parts much as possible (DC/DC converter, motor driver, ...)\n* Support for Indego Charger\n* Support for 36V PV Cell Charger\n* LoRaWAN + HomeMatic transceiver\n* I2C Extension Bus\n* SPI Extension Bus"
+		(exclude_from_sim no)
+		(at 16.51 147.32 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c8c9e7e-1778-4df6-8bae-fc4169aabecf")
+	)
+	(text "* RPI 3/4\n* RPI Zero 2W\n* Banana PI Zero M2"
+		(exclude_from_sim no)
+		(at 218.44 64.77 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c86e76f-53f5-4c3a-a34d-fe18575ad9e6")
+	)
+	(text "* BNO055 IMU"
+		(exclude_from_sim no)
+		(at 168.91 29.21 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0b0dabf-0384-4d7f-ae73-69e0c1b909b8")
+	)
+	(text "* Connectors\n* Sensors\n* Bat Charger\n* Indego UI (Button + LCD)\n* STOP Button"
+		(exclude_from_sim no)
+		(at 19.05 41.91 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd204935-13e3-4af6-a352-01f8f1e50313")
+	)
+	(text "* ESP32-S2/S3\n* USB-OTG\n* Camera (OV2640)"
+		(exclude_from_sim no)
+		(at 218.44 95.25 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec90f306-12b3-4707-8308-92b4f4ed988b")
+	)
+	(text "* I2C Bus\n* SPI Bus"
+		(exclude_from_sim no)
+		(at 218.44 121.92 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9eeb9e1-f062-41ff-9dcc-12e4d9a58962")
+	)
+	(sheet
+		(at 217.17 114.3)
+		(size 48.26 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "063a4b89-ff5c-4ebc-8c26-eb3638df6196")
+		(property "Sheetname" "Extension Bus"
+			(at 217.17 111.7234 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "extension_bus.kicad_sch"
+			(at 217.17 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 53.34)
+		(size 48.26 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14a0580f-24c6-42bd-8508-13400cd5b689")
+		(property "Sheetname" "RPI"
+			(at 217.17 50.7634 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rpi.kicad_sch"
+			(at 217.17 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 24.13)
+		(size 68.58 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19365e20-d168-4b22-b984-186a5be0ae83")
+		(property "Sheetname" "Indego Connector"
+			(at 16.51 21.5534 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "indego_connector.kicad_sch"
+			(at 16.51 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 83.82)
+		(size 48.26 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a02d283-b37e-48cd-b3fb-333b192c2e1a")
+		(property "Sheetname" "ESP32"
+			(at 217.17 81.2434 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 217.17 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 53.34)
+		(size 41.91 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e2ff1d0-aea2-4ed8-b9dc-52f148d68caa")
+		(property "Sheetname" "GPS"
+			(at 168.91 50.7634 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps.kicad_sch"
+			(at 168.91 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 24.13)
+		(size 41.91 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "71f8f2d4-81f9-4c79-a3e6-d09c0ab96ac8")
+		(property "Sheetname" "IMU"
+			(at 167.64 21.5534 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 167.64 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 24.13)
+		(size 48.26 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "779e8a7f-993e-44a7-9f1f-511b922b345b")
+		(property "Sheetname" "Processor"
+			(at 217.17 21.5534 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "processor.kicad_sch"
+			(at 217.17 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 24.13)
+		(size 69.85 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c409297e-7ce1-4e82-93c9-546c0b5fe795")
+		(property "Sheetname" "Motor Driver Sheet"
+			(at 91.44 21.5534 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_driver.kicad_sch"
+			(at 91.44 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 53.34)
+		(size 69.85 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e882e35a-4577-4eca-891a-faba430f565e")
+		(property "Sheetname" "Power Supply"
+			(at 91.44 50.7634 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powersupply.kicad_sch"
+			(at 91.44 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

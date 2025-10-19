@@ -1,0 +1,65 @@
+dependencies:
+  espressif/bdc_motor:
+    component_hash: 9292b605cfd390ff62225caa93e02700b86377e6a3156620192e4876dcf87b27
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.1.0
+  espressif/esp32-camera:
+    component_hash: b209707f12aff1683c5c9dfaff3fa60f0eca687f2bf74f133cdef68fbae86028
+    dependencies:
+    - name: espressif/esp_jpeg
+      registry_url: https://components.espressif.com
+      require: public
+      version: ^1.3.0
+    - name: idf
+      require: private
+      version: '>=5.1'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 2.1.2
+  espressif/esp_jpeg:
+    component_hash: defb83669293cbf86d0fa86b475ba5517aceed04ed70db435388c151ab37b5d7
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    version: 1.3.1
+  espressif/pid_ctrl:
+    component_hash: 17bd99c0160f1c327803aceb088ef0e4ab3410ceb0708cb87fcc950bb62e5698
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.1.1
+  idf:
+    source:
+      type: idf
+    version: 5.2.5
+  microros:
+    component_hash: 7b3cc200fe6538c0cf18a26f9b66c8b90f0c376dacdb7a9931199ca74076b834
+    dependencies: []
+    source:
+      git: https://github.com/micro-ROS/micro_ros_espidf_component.git
+      path: .
+      type: git
+    version: 7d5efa5a71b898b4f3bf2e601230ef124c5a789e
+direct_dependencies:
+- espressif/bdc_motor
+- espressif/esp32-camera
+- espressif/pid_ctrl
+- microros
+manifest_hash: 467396eb16c3cc78bde30f78023366a07a797fb8a325c6b5ff0d5f2498872740
+target: esp32s3
+version: 2.0.0
