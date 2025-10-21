@@ -1,6 +1,9 @@
 # IndegoRover
 new MainBoard for Indego Lawn Mower
 
+Prototype:
+![alt text](https://github.com/MS71/IndegoRover/blob/main/doc/prototype_01.jpeg)
+
 Schematic:
 https://github.com/MS71/IndegoRover/blob/main/kicad/IndegoMower/pdf/IndegoMower.pdf
 
