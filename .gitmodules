@@ -1,0 +1,3 @@
+[submodule "kicad/lib/RPi_Hat_Template"]
+	path = kicad/lib/RPi_Hat_Template
+	url = https://github.com/devbisme/RPi_Hat_Template

@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "26SHC-B-1A")(type "KiCad")(uri "/media/ssd_1gb/workspace/IndegoRover/kicad/lib/26SHC-B-1A.pretty")(options "")(descr ""))
+  (lib (name "24SHC-B-1A")(type "KiCad")(uri "/media/ssd_1gb/workspace/IndegoRover/kicad/lib/24SHC-B-1A.pretty")(options "")(descr ""))
+  (lib (name "Indego")(type "KiCad")(uri "/media/ssd_1gb/workspace/IndegoRover/kicad/lib/Indego.pretty")(options "")(descr ""))
+  (lib (name "RPi_Hat_Template")(type "KiCad")(uri "/media/ssd_1gb/workspace/IndegoRover/kicad/lib/RPi_Hat_Template.pretty")(options "")(descr ""))
+  (lib (name "RPI_Hat")(type "KiCad")(uri "/media/ssd_1gb/workspace/IndegoRover/kicad/lib/RPi_Hat_Template/footprints/RPI_Hat.pretty")(options "")(descr ""))
+)
