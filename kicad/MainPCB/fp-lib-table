@@ -5,4 +5,5 @@
   (lib (name "Indego")(type "KiCad")(uri "/media/ssd_1gb/workspace/IndegoRover/kicad/lib/Indego.pretty")(options "")(descr ""))
   (lib (name "RPi_Hat_Template")(type "KiCad")(uri "/media/ssd_1gb/workspace/IndegoRover/kicad/lib/RPi_Hat_Template.pretty")(options "")(descr ""))
   (lib (name "RPI_Hat")(type "KiCad")(uri "/media/ssd_1gb/workspace/IndegoRover/kicad/lib/RPi_Hat_Template/footprints/RPI_Hat.pretty")(options "")(descr ""))
+  (lib (name "rtk1010")(type "KiCad")(uri "/media/ssd_1gb/workspace/IndegoRover/kicad/lib/rtk1010.pretty")(options "")(descr ""))
 )

@@ -1313,6 +1313,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -2532,458 +2694,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GNDD_7"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDD"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDD_7_0_1"
-				(rectangle
-					(start -1.27 -1.524)
-					(end 1.27 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDD_7_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GNDPWR_1"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , power ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDPWR_1_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GNDPWR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GNDPWR_2"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , power ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDPWR_2_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GNDPWR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -3160,113 +2870,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3716,176 +3319,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , power ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GNDPWR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Indego Connectors\n"
 		(exclude_from_sim no)
@@ -3916,34 +3349,16 @@
 		(uuid "078da89f-8eb2-4810-8031-f19511910cc3")
 	)
 	(junction
-		(at 30.48 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b038d58-79ee-4a81-b27c-b65e0d7be0d3")
-	)
-	(junction
 		(at 91.44 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bbcac17-4ff7-478d-b058-a8a7c7d25443")
 	)
 	(junction
-		(at 45.72 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1293cad0-fc0c-4838-8e36-20a109b89eec")
-	)
-	(junction
-		(at 156.21 147.32)
+		(at 156.21 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b98e08d-a838-4499-a102-ddd038b21dc0")
-	)
-	(junction
-		(at 25.4 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28f656fe-a09f-47ce-9aa9-f18ca702fde2")
 	)
 	(junction
 		(at 104.14 95.25)
@@ -3974,12 +3389,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f4732c5-a47c-4b5b-8964-f96aef1f8f0e")
-	)
-	(junction
-		(at 35.56 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "405416e1-4608-4ead-8411-90b4dbbfea09")
 	)
 	(junction
 		(at 104.14 92.71)
@@ -4018,12 +3427,6 @@
 		(uuid "7924a684-8723-4c56-9741-6faec36bf6d2")
 	)
 	(junction
-		(at 175.26 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a942dab-00a7-442c-b53c-0d55d4733b84")
-	)
-	(junction
 		(at 100.33 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4048,13 +3451,7 @@
 		(uuid "8778f88c-de5b-4261-8f90-70c095a33be0")
 	)
 	(junction
-		(at 40.64 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dfb243a-d5d6-4cf6-b06f-c25be6b8e6e2")
-	)
-	(junction
-		(at 149.86 137.16)
+		(at 149.86 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b052988a-6f47-42ea-a042-4d0db3264968")
@@ -4078,20 +3475,10 @@
 		(uuid "d3148b7c-a975-4a44-9b12-22fba3ba4368")
 	)
 	(junction
-		(at 20.32 190.5)
+		(at 175.26 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ec5c3cda-aa77-48af-99de-200dfcffa87b")
-	)
-	(wire
-		(pts
-			(xy 160.02 114.3) (xy 160.02 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02db110d-5212-467d-87c2-c77955e0e9f9")
+		(uuid "e145f2cd-64ae-40ba-80a1-e0b48cd5b484")
 	)
 	(wire
 		(pts
@@ -4135,16 +3522,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 175.26 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10e63f58-b832-4d2d-91c4-a54d2c07cb0c")
-	)
-	(wire
-		(pts
 			(xy 102.87 82.55) (xy 91.44 82.55)
 		)
 		(stroke
@@ -4155,16 +3532,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 190.5) (xy 40.64 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1655c91f-2ce5-44b8-802e-1e3de7a85b1f")
-	)
-	(wire
-		(pts
 			(xy 127 74.93) (xy 139.7 74.93)
 		)
 		(stroke
@@ -4172,6 +3539,36 @@
 			(type default)
 		)
 		(uuid "17dbe636-5659-493d-b0d9-8b7eb70ef592")
+	)
+	(wire
+		(pts
+			(xy 173.99 143.51) (xy 172.72 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187a2a68-7b48-4193-b6e6-f4c6b6c4d894")
+	)
+	(wire
+		(pts
+			(xy 156.21 143.51) (xy 156.21 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f3ef0e-786f-401f-bf71-024183c491cc")
+	)
+	(wire
+		(pts
+			(xy 110.49 100.33) (xy 111.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e16a0c9-06fb-4324-b4d1-df55d40d8793")
 	)
 	(wire
 		(pts
@@ -4252,16 +3649,6 @@
 			(type default)
 		)
 		(uuid "31e6de2e-8721-4948-87ce-5a9255eb77ea")
-	)
-	(wire
-		(pts
-			(xy 30.48 190.5) (xy 35.56 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3292119d-3dc9-4ddf-ab77-03c4f073919c")
 	)
 	(wire
 		(pts
@@ -4415,6 +3802,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 100.33) (xy 104.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9dc3a7-9957-440f-87f2-e9aad6db0096")
+	)
+	(wire
+		(pts
 			(xy 124.46 40.64) (xy 127 40.64)
 		)
 		(stroke
@@ -4522,16 +3919,6 @@
 			(type default)
 		)
 		(uuid "7f2af42f-ad9f-48fe-a617-4f194d11dd5d")
-	)
-	(wire
-		(pts
-			(xy 15.24 190.5) (xy 20.32 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80719c54-3d42-47fa-9440-2ca4161ebd48")
 	)
 	(wire
 		(pts
@@ -4735,7 +4122,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 137.16) (xy 149.86 140.97)
+			(xy 149.86 135.89) (xy 149.86 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4845,13 +4232,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 190.5) (xy 45.72 190.5)
+			(xy 173.99 140.97) (xy 172.72 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce45cd9e-87e5-409a-b05c-0efc2f263f06")
+		(uuid "cebfed06-ac65-40d1-b30a-292a057cb9a9")
+	)
+	(wire
+		(pts
+			(xy 105.41 100.33) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceedc2a7-c752-410f-88a9-fc21ef72b846")
 	)
 	(wire
 		(pts
@@ -4862,16 +4259,6 @@
 			(type default)
 		)
 		(uuid "cfe52751-7e1d-42ad-8bb6-b4e82f6ef5f7")
-	)
-	(wire
-		(pts
-			(xy 20.32 190.5) (xy 25.4 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d394844e-b7d9-4fac-92c4-cfb0f725e544")
 	)
 	(wire
 		(pts
@@ -4915,16 +4302,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 190.5) (xy 30.48 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc305291-56c4-495f-9740-e414e8ac27fd")
-	)
-	(wire
-		(pts
 			(xy 101.6 168.91) (xy 91.44 168.91)
 		)
 		(stroke
@@ -4932,16 +4309,6 @@
 			(type default)
 		)
 		(uuid "dd699cb1-ec12-4b5f-87ed-5a2b8e49dd9e")
-	)
-	(wire
-		(pts
-			(xy 156.21 143.51) (xy 156.21 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df72b267-c221-4f18-8efb-53d67eed2f79")
 	)
 	(wire
 		(pts
@@ -5303,7 +4670,7 @@
 	)
 	(global_label "COIL_YELLOW"
 		(shape passive)
-		(at 172.72 140.97 0)
+		(at 173.99 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5313,7 +4680,7 @@
 		)
 		(uuid "6657480a-6db5-40db-a09d-a27db88d1d62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.4098 140.8906 0)
+			(at 188.6798 140.8906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +4734,7 @@
 			)
 		)
 	)
-	(global_label "UB"
+	(global_label "U_BAT"
 		(shape passive)
 		(at 114.3 92.71 0)
 		(fields_autoplaced yes)
@@ -5379,7 +4746,7 @@
 		)
 		(uuid "86b3536f-aafb-4061-b544-c57d9110c8ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.3136 92.6306 0)
+			(at 121.7982 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +4868,7 @@
 	)
 	(global_label "COIL_BLUE"
 		(shape passive)
-		(at 172.72 143.51 0)
+		(at 173.99 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5511,7 +4878,7 @@
 		)
 		(uuid "ae69707a-7491-408e-8124-73add55cfcd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.1117 143.4306 0)
+			(at 186.3817 143.4306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,72 +5298,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GNDPWR_1")
-		(lib_id "power:GNDPWR")
-		(at 111.76 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e187680-5fb5-435c-952f-9ee92dcc9be9")
-		(property "Reference" "#PWR084"
-			(at 116.84 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 114.046 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a922a7ef-8b2f-4d25-a0f4-cc199e016498")
-		)
-		(instances
-			(project "IndegoMower"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 148.59 82.55 90)
 		(unit 1)
@@ -6066,17 +5367,18 @@
 		)
 	)
 	(symbol
-		(lib_name "GNDD_1")
+		(lib_name "GNDD_6")
 		(lib_id "power:GNDD")
-		(at 142.24 137.16 270)
+		(at 111.76 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "13be3177-8996-4ae8-84bc-e18c1953631c")
-		(property "Reference" "#PWR087"
-			(at 135.89 137.16 0)
+		(fields_autoplaced yes)
+		(uuid "13146427-a72c-40c3-83db-ae32bf4e0d90")
+		(property "Reference" "#PWR017"
+			(at 118.11 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,15 +5387,16 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 138.43 137.16 0)
+			(at 115.57 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 137.16 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +5405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 137.16 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +5414,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 137.16 0)
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60515bba-6766-4097-bb88-9729a0b2a9bb")
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GNDD_1")
+		(lib_id "power:GNDD")
+		(at 142.24 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13be3177-8996-4ae8-84bc-e18c1953631c")
+		(property "Reference" "#PWR087"
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 138.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,71 +5493,6 @@
 			(project "IndegoMower"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 96.52 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c4c013b-42cb-4cfe-8f7d-8891b1464759")
-		(property "Reference" "#PWR03"
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 98.552 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d2790430-fc39-45a2-b321-312c370ea825")
-		)
-		(instances
-			(project ""
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6256,75 +5559,6 @@
 			(project ""
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
 					(reference "J_B3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 40.64 193.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "260aebbf-d104-42ef-a77d-63b65061ef1e")
-		(property "Reference" "H6"
-			(at 43.18 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 43.18 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 40.64 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db9795d3-b446-4ff3-8665-d9b4f6a7c6bc")
-		)
-		(instances
-			(project "IndegoMower"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -6668,138 +5902,6 @@
 			(project "IndegoMower"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
 					(reference "JP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GNDD_5")
-		(lib_id "power:GNDD")
-		(at 130.81 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2dd8dd85-b568-425a-a8fc-88ac4183b0d2")
-		(property "Reference" "#PWR090"
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 130.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e7f7a3c-27c2-4c32-83dc-8c0edc34ac7b")
-		)
-		(instances
-			(project "IndegoMower"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GNDD_7")
-		(lib_id "power:GNDD")
-		(at 45.72 190.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f548f4b-72e5-4433-8355-1ab2cfe37070")
-		(property "Reference" "#PWR089"
-			(at 45.72 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 45.72 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 45.72 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "028b8b3f-8b3d-4ac9-aa2d-fe63f19301b1")
-		)
-		(instances
-			(project ""
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -7281,7 +6383,7 @@
 	(symbol
 		(lib_name "GNDD_5")
 		(lib_id "power:GNDD")
-		(at 175.26 114.3 0)
+		(at 175.26 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7289,7 +6391,7 @@
 		(dnp no)
 		(uuid "562a48ca-3170-43cb-a56e-e1bce93c4c59")
 		(property "Reference" "#PWR062"
-			(at 175.26 120.65 0)
+			(at 175.26 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7298,7 +6400,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 175.26 118.11 0)
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,7 +6408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 114.3 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,7 +6417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 114.3 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7324,7 +6426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 114.3 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +6601,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 160.02 114.3 0)
+		(at 160.02 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7507,7 +6609,7 @@
 		(dnp no)
 		(uuid "6812df7e-a018-434c-aadf-8f39d8855ebb")
 		(property "Reference" "#PWR061"
-			(at 160.02 120.65 0)
+			(at 160.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +6618,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 160.02 118.11 0)
+			(at 160.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +6626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 114.3 0)
+			(at 160.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,7 +6635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 114.3 0)
+			(at 160.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,7 +6644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 114.3 0)
+			(at 160.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,37 +6946,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 35.56 193.04 180)
+		(lib_name "GNDD_6")
+		(lib_id "power:GNDD")
+		(at 96.52 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b566064-3cd5-4a51-a429-20ff1ca07ca4")
-		(property "Reference" "H5"
-			(at 38.1 193.0399 0)
+		(uuid "7d814d52-267c-482a-8914-10aa45445f7f")
+		(property "Reference" "#PWR090"
+			(at 102.87 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 38.1 195.5799 0)
+		(property "Value" "GNDD"
+			(at 100.33 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 193.04 0)
+			(at 96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7882,8 +6983,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 35.56 193.04 0)
+		(property "Datasheet" ""
+			(at 96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7891,22 +6992,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 35.56 193.04 0)
+		(property "Description" ""
+			(at 96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "6fbba3e9-2e50-44db-8e64-9c5f7accfb3f")
+			(uuid "965a01c2-dec7-4736-921a-3807b9492efe")
 		)
 		(instances
 			(project "IndegoMower"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "H5")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -7980,7 +7080,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 157.48 137.16 270)
+		(at 157.48 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7988,7 +7088,7 @@
 		(dnp no)
 		(uuid "84947c38-d2ce-4353-a83c-c32fd67150bc")
 		(property "Reference" "#PWR085"
-			(at 153.67 137.16 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +7097,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 161.036 138.684 90)
+			(at 161.036 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,7 +7105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 137.16 0)
+			(at 157.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8014,7 +7114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 137.16 0)
+			(at 157.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,7 +7123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 137.16 0)
+			(at 157.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8045,7 +7145,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 137.16 90)
+		(at 146.05 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8053,7 +7153,7 @@
 		(dnp no)
 		(uuid "87d75061-7c6e-440e-9be9-9c82709dabe8")
 		(property "Reference" "R82"
-			(at 144.78 139.192 90)
+			(at 144.78 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8062,7 +7162,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 147.828 137.16 90)
+			(at 147.828 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +7171,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 146.05 138.938 90)
+			(at 146.05 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +7180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 137.16 0)
+			(at 146.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +7189,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 137.16 0)
+			(at 146.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,8 +7213,75 @@
 		)
 	)
 	(symbol
+		(lib_name "GNDD_6")
+		(lib_id "power:GNDD")
+		(at 111.76 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8db1d8b3-1082-4c74-abd9-39beb9f90fe5")
+		(property "Reference" "#PWR089"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 115.57 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15cf864d-d935-4848-abcb-8b3412887927")
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 175.26 110.49 0)
+		(at 175.26 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8122,7 +7289,7 @@
 		(dnp no)
 		(uuid "943cce2a-e3f2-4ecc-a6a7-65fc2c43f4fd")
 		(property "Reference" "R55"
-			(at 177.038 112.268 0)
+			(at 177.038 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +7298,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 175.26 112.268 90)
+			(at 175.26 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,7 +7307,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 173.482 110.49 90)
+			(at 173.482 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,7 +7316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 110.49 0)
+			(at 175.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,7 +7325,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 175.26 110.49 0)
+			(at 175.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,7 +7553,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 147.32 90)
+		(at 160.02 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8394,7 +7561,7 @@
 		(dnp no)
 		(uuid "9c510d3a-982a-40f3-9d1e-9e73c09d31dc")
 		(property "Reference" "R85"
-			(at 161.036 149.352 90)
+			(at 161.036 150.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8403,7 +7570,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 161.798 147.32 90)
+			(at 161.798 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8412,7 +7579,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 160.02 149.098 90)
+			(at 160.02 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8421,7 +7588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 147.32 0)
+			(at 160.02 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8430,7 +7597,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 147.32 0)
+			(at 160.02 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8514,6 +7681,73 @@
 			(project ""
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
 					(reference "F_CHARGE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GNDD_6")
+		(lib_id "power:GNDD")
+		(at 96.52 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f0aa2cf-ed50-46cc-8e2d-d8ee4ed1f17d")
+		(property "Reference" "#PWR03"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 100.33 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07c9c8e3-4fa9-4b90-9510-0748cb6ffc45")
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8655,74 +7889,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GNDPWR_2")
-		(lib_id "power:GNDPWR")
-		(at 111.76 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a841ef42-bcfc-478b-a12f-876cc1f3df8e")
-		(property "Reference" "#PWR017"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 114.046 95.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "159ca4ed-a864-4021-90fa-8fa1f765d857")
-		)
-		(instances
-			(project "IndegoMower"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 153.67 137.16 90)
+		(at 153.67 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8730,7 +7898,7 @@
 		(dnp no)
 		(uuid "a94484de-e288-472f-a74a-f11aaa3136a2")
 		(property "Reference" "R83"
-			(at 156.21 139.192 90)
+			(at 156.21 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8739,7 +7907,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 155.448 137.16 90)
+			(at 155.448 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +7916,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 153.67 138.938 90)
+			(at 153.67 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8757,7 +7925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 137.16 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,7 +7934,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 137.16 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,6 +8025,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 107.95 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeb9214a-2d42-4045-ad9f-d29e85c70a3b")
+		(property "Reference" "C49"
+			(at 112.776 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680uF / 63V"
+			(at 105.918 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f81abaa1-2f2e-4274-993a-36345147ccf7")
+		)
+		(pin "1"
+			(uuid "a0c098cc-4912-43b8-aa81-46a8ef854526")
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GNDD_4")
 		(lib_id "power:GNDD")
 		(at 90.17 44.45 90)
@@ -8917,75 +8154,6 @@
 			(project ""
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 25.4 193.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b95c9890-6ad4-4175-be38-f3413e71153c")
-		(property "Reference" "H3"
-			(at 27.94 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 27.94 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 25.4 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b57059a-f706-45cc-b020-70ad0f82d7ab")
-		)
-		(instances
-			(project "IndegoMower"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -9053,75 +8221,6 @@
 			(project ""
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
 					(reference "J_B4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 20.32 193.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7ce5b09-ea8d-455e-aabd-6f747ff181c2")
-		(property "Reference" "H2"
-			(at 22.86 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 22.86 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 20.32 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "769c625a-25cf-484e-8700-78953a5e71ff")
-		)
-		(instances
-			(project "IndegoMower"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9259,75 +8358,6 @@
 			(project "IndegoMower"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
 					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 30.48 193.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc4035dc-0af5-49ee-b643-a58d4c3c24a4")
-		(property "Reference" "H4"
-			(at 33.02 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 33.02 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 30.48 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae6fdd65-abf0-49d5-873e-008d3d84804c")
-		)
-		(instances
-			(project "IndegoMower"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -9541,7 +8571,7 @@
 	(symbol
 		(lib_name "GNDD_2")
 		(lib_id "power:GNDD")
-		(at 148.59 147.32 270)
+		(at 148.59 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9549,7 +8579,7 @@
 		(dnp no)
 		(uuid "e68f87d7-bce5-46ca-b334-4fd3115f8619")
 		(property "Reference" "#PWR088"
-			(at 142.24 147.32 0)
+			(at 142.24 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9558,7 +8588,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 144.78 147.32 0)
+			(at 144.78 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +8596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 147.32 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9575,7 +8605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 147.32 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +8614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 147.32 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9605,7 +8635,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 147.32 90)
+		(at 152.4 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9613,7 +8643,7 @@
 		(dnp no)
 		(uuid "e7e7ef47-a31d-4206-8b92-89cdc9d2ed91")
 		(property "Reference" "R84"
-			(at 153.416 149.352 90)
+			(at 153.416 150.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,7 +8652,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 154.178 147.32 90)
+			(at 154.178 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9631,7 +8661,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 152.4 149.098 90)
+			(at 152.4 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +8670,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 147.32 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +8679,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 147.32 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9667,75 +8697,6 @@
 			(project "IndegoMower"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
 					(reference "R84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 15.24 193.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8dc09c3-36e2-4db9-ae5c-3e0c13b696d9")
-		(property "Reference" "H1"
-			(at 17.78 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 17.78 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 15.24 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 15.24 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 15.24 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3e5a0d2-f770-4805-bf6f-f1ccc15ad849")
-		)
-		(instances
-			(project ""
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9811,7 +8772,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 163.83 147.32 270)
+		(at 163.83 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9819,7 +8780,7 @@
 		(dnp no)
 		(uuid "f92ab526-422a-4e2d-8512-d734769dc991")
 		(property "Reference" "#PWR086"
-			(at 160.02 147.32 0)
+			(at 160.02 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,7 +8789,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 167.132 148.844 90)
+			(at 167.132 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +8797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 147.32 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,7 +8806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 147.32 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +8815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 147.32 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,75 +8898,6 @@
 			(project "IndegoMower"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
 					(reference "JP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 45.72 193.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb01cdc4-b8a9-4d12-894e-7dded1fd3161")
-		(property "Reference" "H7"
-			(at 48.26 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 48.26 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 45.72 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f090973f-dd9b-4381-b2c8-fd2aa434928d")
-		)
-		(instances
-			(project "IndegoMower"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
-					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -10145,6 +9037,73 @@
 			(project ""
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GNDD_6")
+		(lib_id "power:GNDD")
+		(at 111.76 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe9d87f2-6611-407f-8488-c621b52d049e")
+		(property "Reference" "#PWR084"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 115.57 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5554e673-cc74-4084-89a7-b353c4acc3c8")
+		)
+		(instances
+			(project "IndegoMower"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/19365e20-d168-4b22-b984-186a5be0ae83"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
